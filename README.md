@@ -1,2 +1,3 @@
 # Omnifood
-Food website
+More info coming soon.
+Mockup of website for food.
