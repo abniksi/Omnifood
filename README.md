@@ -1,2 +1,2 @@
 # Omnifood
-Food website
+More info coming soon.
