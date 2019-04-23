@@ -2,28 +2,42 @@
   margin: 0 auto;
 }
 
-ul{
+#navbar ul{
   float: right;
 	list-style: none;
 	margin-top: 40px !important;
   color: white;
 }
 
-li{
+#navbar li{
   display: inline-block;
 	margin-left: 40px;
   text-align: center;
 }
 
+li{
+  display: inline-block;
+}
+
 #navbar{
   max-width: 1140px;
   margin: 0 auto;
+  font-size: 20px;
 }
 
 #navbar a{
   color: white;
   margin-top: 40px;
+  text-decoration: none;
+    transition: .5s ease;
+    padding-bottom: 10px;
 }
+
+#navbar a:hover{
+  color: #2F3C7E;
+  border-bottom: 4px solid #2F3C7E;
+}
+
 
 #splashPage{
   height: 100vh;
@@ -53,13 +67,17 @@ nav img{
   background-color: white;
   color: #2F3C7E;
   height: 50px;
-  transition: .3s ease-in-out;
+  transition: .5s ease-in-out;
+}
+
+#splashPage button{
+  margin-right: 15px;
 }
 
 #splashPage button:hover{
   background-color: #2F3C7E;
   color: white;
-  transform: scale(1.05);
+  transform: scale(1.1);
 }
 
 #splashText{
